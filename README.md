@@ -4,13 +4,13 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-    background-image: url('kitsada.jpg');
+    background-image: url('/w3images/onepage_restaurant.jpg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -20,15 +20,15 @@ body, html {height: 100%}
 
 <div class="bgimg w3-display-container w3-text-white">
   <div class="w3-display-middle w3-jumbo w3-padding-jumbo">
-    <p>Kitsada</p>
+    <p>logo</p>
   </div>
   <div class="w3-display-topleft w3-padding-jumbo w3-xlarge">
     <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
     <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
   </div>
   <div class="w3-display-bottomleft w3-padding-jumbo">
-    <p class="w3-xlarge">monday 03/16/2017</p>
-    <p class="w3-large">5810513001</p>
+    <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
+    <p class="w3-large">42 village St, New York</p>
     <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </div>
 </div>
@@ -89,4 +89,6 @@ body, html {height: 100%}
 
 </body>
 </html>
+
+
 
